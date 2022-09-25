@@ -1,0 +1,56 @@
+body{
+  font-family: sans-serif;
+}
+
+.wrapper{
+  padding: 0 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+.schedule-container{
+  margin: 20px 50px;
+}
+
+.scheduler-card{
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(179, 179, 179);
+  color: black;
+  border-radius: 20px;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+}
+
+.scheduler-card .button button{
+  background: white;
+  border-color: transparent;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-wrapper{
+  grid-template-columns: auto auto;
+  width: 100%;
+  display: grid;
+}
+
+.add-interview-button-wrapper{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-interview-button{
+  background: rgb(179, 179, 179);
+  color: black;
+  border: transparent;
+  border-radius: 20px;
+  padding: 10px 20px;
+  max-width: 200px;
+  max-height: 70px;
+}
